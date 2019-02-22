@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af1fc1e6d897f4da89612470171cd033, type: 3}
+  m_Name: AgentMoveAI
+  m_EditorClassIdentifier: 
+  description: 
+  version: 0.1
+  aiId: AgentMoveAI
+  editorConfiguration: "{\n  \"$id\": \"1\",\n  \"nodes\": {\n    \"$id\": \"2\",\n
+    \   \"$values\": []\n  },\n  \"offset\": {\n    \"x\": -62.0,\n    \"y\": 140.0\n
+    \ },\n  \"zoom\": 1.0,\n  \"selectorNodes\": {\n    \"$type\": \"AtlasAI.AIEditor.AICanvas+<>c__Iterator0,
+    Assembly-CSharp-Editor\",\n    \"$values\": []\n  }\n}"

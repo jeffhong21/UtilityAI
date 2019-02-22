@@ -1,0 +1,83 @@
+﻿
+{
+  "type": "UtilityAI"
+  "properties": 
+  {
+    "id": {
+      "type": "Guid",
+      "value": null
+    }
+    "name": {
+      "type": "string",
+      "value": "UtilityAIName"
+    }
+    "rootSelector": {
+      "type": "Selector",
+      "value": null
+    }
+    "selectorCount": {
+      "type": "int",
+      "value": 0
+    }
+  }
+}
+
+
+{
+  "type" : "Selector"
+  "properties" :  
+  {
+    "defaultQualifier" : {
+        "type" : "IDefaultQualifier",
+        "value": null
+      }
+    "id": {
+      "type": "Guid",
+      "value": null
+    }
+    "qualifiers": {
+      "type": "List<IQualifier>",
+      "value": [ "", "", "" ]
+    }
+  }
+}
+
+
+
+
+
+
+
+
+{
+  "compositeQualifier": 
+  {
+    "action ": "",
+    "scorers": [ "", "", "" ]
+  }
+}
+
+{
+  "qualifier": 
+  {
+    "action ": "",
+  }
+}
+
+{
+  "action": ""
+}
+
+{
+  "compositeAction": 
+  {
+    "actions": [ "", "", "" ]
+  }
+}
+
+{
+  "contextualScorer": 
+  {
+    "score": 0
+  }
+}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e6124bd7e38497d93ecaf413269520, type: 3}
+  m_Name: New Behavior Tree
+  m_EditorClassIdentifier: 
+  serializedBehaviorTree: <behaviortree><root editorx="492" editory="108" guid=""><selector
+    editorx="504" editory="204" guid="193cca1a-0cd2-4070-9601-5a912b0a2024" remember="False"><repeater
+    editorx="360" editory="384" guid="d71d6542-97bf-4c06-a1e0-29110cc55849"><selector
+    editorx="228" editory="444" guid="76656b54-92a5-4411-8363-be3b9bddca29" remember="False"><action
+    editorx="396" editory="588" guid="0d755011-87d1-4857-93b1-53282c1fceff" script=""
+    scriptpath="" method="" /></selector></repeater><sequence editorx="708" editory="360"
+    guid="36a51f3f-e4a7-4ec6-b034-65be9cdf13f8" remember="False" /></selector></root><unparented><action
+    editorx="816" editory="372" guid="6a24f94d-bb8d-4511-8e6a-1baf652b08a5" script=""
+    scriptpath="" method="" /><action editorx="924" editory="360" guid="61c6ea14-cb0e-4b35-8ff6-7cb309f64bb2"
+    script="" scriptpath="" method="" /><action editorx="1020" editory="360" guid="9d0f9451-ddfd-4fa3-9d04-092885a2d5b0"
+    script="" scriptpath="" method="" /><action editorx="1128" editory="360" guid="0219db61-8189-4807-8579-f952cae9a7aa"
+    script="" scriptpath="" method="" /></unparented></behaviortree>
+  behaviorTree: {fileID: 0}

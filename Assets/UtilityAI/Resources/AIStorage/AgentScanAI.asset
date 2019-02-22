@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af1fc1e6d897f4da89612470171cd033, type: 3}
+  m_Name: AgentScanAI
+  m_EditorClassIdentifier: 
+  description: 
+  version: 0.1
+  aiId: AgentScanAI
+  editorConfiguration: "{\n  \"$id\": \"1\",\n  \"$values\": [\n    {\n      \"$id\":
+    \"2\",\n      \"$type\": \"AtlasAI.AIEditor.SelectorNode, Assembly-CSharp-Editor\",\n
+    \     \"qualifierNodes\": {\n        \"$id\": \"3\",\n        \"$values\": [\n
+    \         {\n            \"$id\": \"4\",\n            \"parent\": {\n              \"$ref\":
+    \"2\"\n            },\n            \"friendlyName\": \"CompositeScoreQualifier\",\n
+    \           \"isDefault\": false,\n            \"isExpanded\": false,\n            \"isHighScorer\":
+    false,\n            \"name\": \"CompositeScoreQualifier\",\n            \"hideFlags\":
+    61\n          }\n        ]\n      },\n      \"defaultQualifierNode\": {\n        \"$id\":
+    \"5\",\n        \"friendlyName\": \"DefaultQualifier\",\n        \"isDefault\":
+    false,\n        \"isExpanded\": false,\n        \"isHighScorer\": false,\n        \"name\":
+    \"DefaultQualifier\",\n        \"hideFlags\": 61\n      },\n      \"parent\":
+    {\n        \"$id\": \"6\",\n        \"canvas\": {\n          \"$id\": \"7\",\n
+    \         \"offset\": {\n            \"x\": 0.0,\n            \"y\": 0.0\n          },\n
+    \         \"zoom\": 0.0,\n          \"nodes\": {\n            \"$ref\": \"1\"\n
+    \         },\n          \"selectorNodes\": {\n            \"$type\": \"AtlasAI.AIEditor.AICanvas+<>c__Iterator0,
+    Assembly-CSharp-Editor\",\n            \"$values\": [\n              {\n                \"$ref\":
+    \"2\"\n              }\n            ]\n          }\n        },\n        \"selectedNode\":
+    {\n          \"$ref\": \"2\"\n        },\n        \"isDirty\": false,\n        \"name\":
+    \"\",\n        \"hideFlags\": 0\n      },\n      \"viewArea\": {\n        \"$id\":
+    \"8\",\n        \"x\": 344.0,\n        \"y\": 186.0,\n        \"position\": {\n
+    \         \"x\": 344.0,\n          \"y\": 186.0\n        },\n        \"center\":
+    {\n          \"x\": 454.0,\n          \"y\": 232.0\n        },\n        \"min\":
+    {\n          \"x\": 344.0,\n          \"y\": 186.0\n        },\n        \"max\":
+    {\n          \"x\": 564.0,\n          \"y\": 278.0\n        },\n        \"width\":
+    220.0,\n        \"height\": 92.0,\n        \"size\": {\n          \"x\": 220.0,\n
+    \         \"y\": 92.0\n        },\n        \"xMin\": 344.0,\n        \"yMin\":
+    186.0,\n        \"xMax\": 564.0,\n        \"yMax\": 278.0,\n        \"left\":
+    344.0,\n        \"right\": 564.0,\n        \"top\": 186.0,\n        \"bottom\":
+    278.0\n      },\n      \"AllQualifierNodes\": {\n        \"$type\": \"AtlasAI.AIEditor.SelectorNode+<>c__Iterator0,
+    Assembly-CSharp-Editor\",\n        \"$values\": [\n          {\n            \"$ref\":
+    \"4\"\n          }\n        ]\n      },\n      \"friendlyName\": \"ScoreSelector
+    1\",\n      \"isRoot\": false,\n      \"isSelected\": true,\n      \"parentUI\":
+    {\n        \"$ref\": \"6\"\n      },\n      \"name\": \"ScoreSelector 1\",\n      \"hideFlags\":
+    61\n    }\n  ]\n}"

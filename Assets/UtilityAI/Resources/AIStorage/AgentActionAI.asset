@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af1fc1e6d897f4da89612470171cd033, type: 3}
+  m_Name: AgentActionAI
+  m_EditorClassIdentifier: 
+  description: 
+  version: 0.1
+  aiId: AgentActionAI
+  editorConfiguration: "{\n  \"$id\": \"1\",\n  \"nodes\": {\n    \"$id\": \"2\",\n
+    \   \"$values\": [\n      {\n        \"$id\": \"3\",\n        \"$type\": \"AtlasAI.AIEditor.SelectorNode,
+    Assembly-CSharp-Editor\",\n        \"qualifierNodes\": {\n          \"$id\": \"4\",\n
+    \         \"$values\": []\n        },\n        \"defaultQualifierNode\": {\n          \"$id\":
+    \"5\",\n          \"friendlyName\": \"DefaultQualifier\",\n          \"isDefault\":
+    false,\n          \"isExpanded\": false,\n          \"isHighScorer\": false,\n
+    \         \"name\": \"DefaultQualifier\",\n          \"hideFlags\": 61\n        },\n
+    \       \"parent\": {\n          \"$id\": \"6\",\n          \"canvas\": {\n            \"$ref\":
+    \"1\"\n          },\n          \"isDirty\": false,\n          \"name\": \"\",\n
+    \         \"hideFlags\": 0\n        },\n        \"viewArea\": {\n          \"$id\":
+    \"7\",\n          \"x\": 282.0,\n          \"y\": 140.0,\n          \"position\":
+    {\n            \"x\": 282.0,\n            \"y\": 140.0\n          },\n          \"center\":
+    {\n            \"x\": 410.0,\n            \"y\": 184.0\n          },\n          \"min\":
+    {\n            \"x\": 282.0,\n            \"y\": 140.0\n          },\n          \"max\":
+    {\n            \"x\": 538.0,\n            \"y\": 228.0\n          },\n          \"width\":
+    256.0,\n          \"height\": 88.0,\n          \"size\": {\n            \"x\":
+    256.0,\n            \"y\": 88.0\n          },\n          \"xMin\": 282.0,\n          \"yMin\":
+    140.0,\n          \"xMax\": 538.0,\n          \"yMax\": 228.0,\n          \"left\":
+    282.0,\n          \"right\": 538.0,\n          \"top\": 140.0,\n          \"bottom\":
+    228.0\n        },\n        \"AllQualifierNodes\": {\n          \"$type\": \"AtlasAI.AIEditor.SelectorNode+<>c__Iterator0,
+    Assembly-CSharp-Editor\",\n          \"$values\": []\n        },\n        \"friendlyName\":
+    \"ScoreSelector 1\",\n        \"isRoot\": false,\n        \"selector\": {\n          \"$id\":
+    \"8\",\n          \"$type\": \"AtlasAI.ScoreSelector, Assembly-CSharp\",\n          \"debugScores\":
+    false,\n          \"debugIfDefault\": false,\n          \"id\": \"c7f98c4d-a53f-4c21-8375-30a60ee245ad\",\n
+    \         \"qualifiers\": [],\n          \"defaultQualifier\": {\n            \"$id\":
+    \"9\",\n            \"$type\": \"AtlasAI.DefaultQualifier, Assembly-CSharp\",\n
+    \           \"score\": 1.0,\n            \"isDisabled\": false\n          }\n
+    \       },\n        \"isSelected\": false,\n        \"parentUI\": {\n          \"$ref\":
+    \"6\"\n        },\n        \"name\": \"ScoreSelector 1\",\n        \"hideFlags\":
+    61\n      },\n      {\n        \"$id\": \"10\",\n        \"$type\": \"AtlasAI.AIEditor.SelectorNode,
+    Assembly-CSharp-Editor\",\n        \"qualifierNodes\": {\n          \"$id\": \"11\",\n
+    \         \"$values\": []\n        },\n        \"defaultQualifierNode\": {\n          \"$id\":
+    \"12\",\n          \"friendlyName\": \"DefaultQualifier\",\n          \"isDefault\":
+    false,\n          \"isExpanded\": false,\n          \"isHighScorer\": false,\n
+    \         \"name\": \"DefaultQualifier\",\n          \"hideFlags\": 61\n        },\n
+    \       \"parent\": {\n          \"$ref\": \"6\"\n        },\n        \"viewArea\":
+    {\n          \"$id\": \"13\",\n          \"x\": 588.0,\n          \"y\": 194.0,\n
+    \         \"position\": {\n            \"x\": 588.0,\n            \"y\": 194.0\n
+    \         },\n          \"center\": {\n            \"x\": 716.0,\n            \"y\":
+    266.0\n          },\n          \"min\": {\n            \"x\": 588.0,\n            \"y\":
+    194.0\n          },\n          \"max\": {\n            \"x\": 844.0,\n            \"y\":
+    338.0\n          },\n          \"width\": 256.0,\n          \"height\": 144.0,\n
+    \         \"size\": {\n            \"x\": 256.0,\n            \"y\": 144.0\n          },\n
+    \         \"xMin\": 588.0,\n          \"yMin\": 194.0,\n          \"xMax\": 844.0,\n
+    \         \"yMax\": 338.0,\n          \"left\": 588.0,\n          \"right\": 844.0,\n
+    \         \"top\": 194.0,\n          \"bottom\": 338.0\n        },\n        \"AllQualifierNodes\":
+    {\n          \"$type\": \"AtlasAI.AIEditor.SelectorNode+<>c__Iterator0, Assembly-CSharp-Editor\",\n
+    \         \"$values\": []\n        },\n        \"friendlyName\": \"ScoreSelector
+    2\",\n        \"isRoot\": false,\n        \"selector\": {\n          \"$id\":
+    \"14\",\n          \"$type\": \"AtlasAI.ScoreSelector, Assembly-CSharp\",\n          \"debugScores\":
+    false,\n          \"debugIfDefault\": false,\n          \"id\": \"ec227d40-023c-4f34-a394-8bacbd24b546\",\n
+    \         \"qualifiers\": [],\n          \"defaultQualifier\": {\n            \"$id\":
+    \"15\",\n            \"$type\": \"AtlasAI.DefaultQualifier, Assembly-CSharp\",\n
+    \           \"score\": 1.0,\n            \"isDisabled\": false\n          }\n
+    \       },\n        \"isSelected\": false,\n        \"parentUI\": {\n          \"$ref\":
+    \"6\"\n        },\n        \"name\": \"ScoreSelector 2\",\n        \"hideFlags\":
+    61\n      }\n    ]\n  },\n  \"offset\": {\n    \"x\": 108.0,\n    \"y\": 169.0\n
+    \ },\n  \"zoom\": 1.0,\n  \"selectorNodes\": {\n    \"$type\": \"AtlasAI.AIEditor.AICanvas+<>c__Iterator0,
+    Assembly-CSharp-Editor\",\n    \"$values\": [\n      {\n        \"$ref\": \"3\"\n
+    \     },\n      {\n        \"$ref\": \"10\"\n      }\n    ]\n  }\n}"
